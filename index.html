@@ -15,10 +15,14 @@
   <body>
     <header>
       <h1>Hello World</h1>
-    </header>
-    <section id="user-goal">
-      <h2>Hello World</h2>
-      <p></p>
-    </section>
   </body>
+    </header>
+    <div id="userGoal">
+      <h2>Hello World</h2>
+      <h1>USERGOAL : {{ counter }}</h1>      
+      <button v-on:click="clickMessage">click message</button>
+      <p>USERGOAL : {{ messages }}</p>
+      <a :href="link">Button URL</a>
+      <a href= "https://v3.vuejs.org/guide/template-syntax.html#directives">Button URL HREF</a> 
+    </div>
 </html>
